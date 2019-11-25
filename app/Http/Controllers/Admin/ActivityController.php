@@ -38,6 +38,7 @@ class ActivityController extends Controller
         'create_time'=>time(),
         'token'=>$info['_token']
       ];
+      //
       $res=Act_course::create($data);
         }
      }
